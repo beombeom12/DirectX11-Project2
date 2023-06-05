@@ -1,0 +1,10 @@
+Diffuse=Legion_Bomber_d
+Normal=Legion_Bomber_n
+Emissive=T_Tiling_Stylized
+Other[0]=Legion_Bomber_mre_packed
+Other[1]=T_TilingSmoke_3
+Other[2]=MM_Default_Grey
+Other[3]=MM_Default_MRE_Linear
+Other[4]=MM_Default_N
+Other[5]=T_Dissolve_EdgeRamp_A
+Other[6]=T_DissolveMask_A

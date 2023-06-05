@@ -1,0 +1,9 @@
+Diffuse=LegionChampion_Weapon_A_d
+Normal=LegionChampion_Weapon_A_n
+Emissive=LegionChampion_Weapon_A_mre_packed
+Other[0]=T_TilingSmoke_3
+Other[1]=MM_Default_Grey
+Other[2]=MM_Default_MRE_Linear
+Other[3]=MM_Default_N
+Other[4]=T_Dissolve_EdgeRamp_A
+Other[5]=T_DissolveMask_A

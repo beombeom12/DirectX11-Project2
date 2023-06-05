@@ -1,0 +1,10 @@
+Diffuse=Legion_Flame_Body_d
+Normal=Legion_Flame_Body_n
+Emissive=Legion_Flame_Body_mre_packed
+Other[0]=T_Gradient_Demon_01
+Other[1]=T_TilingSmoke_3
+Other[2]=MM_Default_Grey
+Other[3]=MM_Default_MRE_Linear
+Other[4]=MM_Default_N
+Other[5]=T_Dissolve_EdgeRamp_A
+Other[6]=T_DissolveMask_A

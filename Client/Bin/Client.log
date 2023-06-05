@@ -1,0 +1,113 @@
+﻿빌드 시작: 2023-05-28 오후 5:40:58
+     1>2 노드의 "C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Client\Default\Client.vcxproj" 프로젝트(Build 대상)입니다.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\Client.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../Reference/Librarys/ Engine.lib DirectXTK.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\Bin\Client.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Bin\Client.lib" /MACHINE:X64 ..\Bin\Client.res
+         ..\Bin\BackGround.obj
+         ..\Bin\Camera_Dynamic.obj
+         ..\Bin\CliffRock.obj
+         ..\Bin\DBarrel.obj
+         ..\Bin\DBarrelA.obj
+         ..\Bin\DBarricade.obj
+         ..\Bin\DBirchA.obj
+         ..\Bin\DBirchB.obj
+         ..\Bin\DBirchC.obj
+         ..\Bin\DesertRoad.obj
+         ..\Bin\DesertRoadA.obj
+         ..\Bin\DesertRoadB.obj
+         ..\Bin\DesertRockA.obj
+         ..\Bin\DesertRockB.obj
+         ..\Bin\DesertRockPillar.obj
+         ..\Bin\DesertRockTall.obj
+         ..\Bin\DesertTallCollision.obj
+         ..\Bin\DesertTallLODA.obj
+         ..\Bin\DesertTallLODB.obj
+         ..\Bin\DesertTerrain.obj
+         ..\Bin\DesertTerrainRubble.obj
+         ..\Bin\DStair.obj
+         ..\Bin\DStairTwo.obj
+         ..\Bin\DTree.obj
+         ..\Bin\Effect.obj
+         ..\Bin\Effect_PlayerDust.obj
+         ..\Bin\Effect_Point_Instancing.obj
+         ..\Bin\Effect_Point_PlayerDust.obj
+         ..\Bin\Effect_Point_PlayerWindow.obj
+         ..\Bin\Effect_Rect_Instancing.obj
+         ..\Bin\ForliageA.obj
+         ..\Bin\FortressGate.obj
+         ..\Bin\FRoadMain.obj
+         ..\Bin\FSideCliff.obj
+         ..\Bin\FSideWall.obj
+         ..\Bin\FSpikeA.obj
+         ..\Bin\FSpikeAHalf.obj
+         ..\Bin\FSpikeB.obj
+         ..\Bin\FWallA.obj
+         ..\Bin\FWallB.obj
+         ..\Bin\Goblin.obj
+         ..\Bin\Goblin_State.obj
+         ..\Bin\Goblin_Sword.obj
+         ..\Bin\Grinner.obj
+         ..\Bin\Grinner_State.obj
+         ..\Bin\HellHound.obj
+         ..\Bin\HellHound_State.obj
+         ..\Bin\ImGui_Manager_Client.obj
+         ..\Bin\LandingCrater.obj
+         ..\Bin\Level_Control.obj
+         ..\Bin\Level_GamePlay.obj
+         ..\Bin\Level_Loading.obj
+         ..\Bin\Level_Logo.obj
+         ..\Bin\Loader.obj
+         ..\Bin\LoadingBackGround.obj
+         ..\Bin\LoadingImage.obj
+         ..\Bin\MainApp.obj
+         ..\Bin\Moloch.obj
+         ..\Bin\Moloch_State.obj
+         ..\Bin\Moloch_Sword.obj
+         ..\Bin\Monster.obj
+         ..\Bin\Monster_Install.obj
+         ..\Bin\Monster_State.obj
+         ..\Bin\Mo_Stone.obj
+         ..\Bin\Navigation_Control.obj
+         ..\Bin\Navigation_Cube.obj
+         ..\Bin\Object_Builder.obj
+         ..\Bin\Player.obj
+         ..\Bin\Player_State.obj
+         ..\Bin\RoadCliffRock.obj
+         ..\Bin\RoadCliffRockA.obj
+         ..\Bin\RoadCliffRockB.obj
+         ..\Bin\RoadCliffRockC.obj
+         ..\Bin\Sky.obj
+         ..\Bin\StairCase.obj
+         ..\Bin\StairUp.obj
+         ..\Bin\Static_Camera.obj
+         ..\Bin\Steamroller.obj
+         ..\Bin\Steamroller_State.obj
+         ..\Bin\Stone.obj
+         ..\Bin\SubeMo_State.obj
+         ..\Bin\SubMo.obj
+         ..\Bin\Terrain.obj
+         ..\Bin\TestMap.obj
+         ..\Bin\UI_HP.obj
+         ..\Bin\UI_HPBAR.obj
+         ..\Bin\UI_MonsterHP.obj
+         ..\Bin\UI_Player.obj
+         ..\Bin\UI_Player_SkillTool.obj
+         ..\Bin\UI_Skill1.obj
+         ..\Bin\UI_Skill2.obj
+         ..\Bin\WarSkill.obj
+         ..\Bin\Weapon.obj
+         ..\Bin\Client.obj
+         ..\Bin\stdafx.obj
+         코드를 생성하고 있습니다.
+         0 of 4141 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         코드를 생성했습니다.
+     1>DirectXTK.lib(pch.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(pch.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Client\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>DirectXTK.lib(ScreenGrab.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(ScreenGrab.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Client\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>DirectXTK.lib(WICTextureLoader.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(WICTextureLoader.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Client\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+         Client.vcxproj -> C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Client\Default\..\Bin\Client.exe
+     1>"C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Client\Default\Client.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.95

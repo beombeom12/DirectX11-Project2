@@ -1,0 +1,333 @@
+﻿빌드 시작: 2023-05-28 오후 5:40:48
+     1>2 노드의 "C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Default\Engine.vcxproj" 프로젝트(Build 대상)입니다.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\Engine.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../ThirdPartyLib/ d3d11.lib dinput8.lib dxguid.lib Effects11.lib DirectXTK.lib "assimp-vc140-mt.lib" fmod_vc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\Bin\Engine.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Bin\Engine.lib" /MACHINE:X64 /DLL ..\Bin\Animation.obj
+         ..\Bin\Base.obj
+         ..\Bin\Bone.obj
+         ..\Bin\Calculator.obj
+         ..\Bin\Camera.obj
+         ..\Bin\Cell.obj
+         ..\Bin\Channel.obj
+         ..\Bin\Collider.obj
+         ..\Bin\Component.obj
+         ..\Bin\Component_Manager.obj
+         ..\Bin\CustomFont.obj
+         ..\Bin\DebugDraw.obj
+         ..\Bin\Font_Manager.obj
+         ..\Bin\GameInstance.obj
+         ..\Bin\GameObject.obj
+         ..\Bin\Graphic_Device.obj
+         ..\Bin\ImguiObject.obj
+         ..\Bin\ImGui_Console.obj
+         ..\Bin\ImGui_Manager.obj
+         ..\Bin\Input_Device.obj
+         ..\Bin\Installation.obj
+         ..\Bin\Layer.obj
+         ..\Bin\Level.obj
+         ..\Bin\Level_Manager.obj
+         ..\Bin\Light.obj
+         ..\Bin\Light_Manager.obj
+         ..\Bin\Mesh.obj
+         ..\Bin\Model.obj
+         ..\Bin\Navigation.obj
+         ..\Bin\Object_Manager.obj
+         ..\Bin\PipeLine.obj
+         ..\Bin\Renderer.obj
+         ..\Bin\RenderTarget.obj
+         ..\Bin\Shader.obj
+         ..\Bin\Sound.obj
+         ..\Bin\Sound_Manager.obj
+         ..\Bin\State.obj
+         ..\Bin\Target_Manager.obj
+         ..\Bin\Texture.obj
+         ..\Bin\Timer.obj
+         ..\Bin\Timer_Manager.obj
+         ..\Bin\Transform.obj
+         ..\Bin\UI.obj
+         ..\Bin\VIBuffer.obj
+         ..\Bin\VIBuffer_Cell.obj
+         ..\Bin\VIBuffer_Cube.obj
+         ..\Bin\VIBuffer_Instancing.obj
+         ..\Bin\VIBuffer_Point_Dust.obj
+         ..\Bin\VIBuffer_Point_Instancing.obj
+         ..\Bin\VIBuffer_Point_PlayerDust.obj
+         ..\Bin\VIBuffer_Point_Window.obj
+         ..\Bin\VIBuffer_Rect.obj
+         ..\Bin\VIBuffer_Rect_Instancing.obj
+         ..\Bin\VIBuffer_Square.obj
+         ..\Bin\VIBuffer_Terrain.obj
+         ..\Bin\Engine_Struct.obj
+         ..\Bin\GraphEditor.obj
+         ..\Bin\ImCurveEdit.obj
+         ..\Bin\ImGradient.obj
+         ..\Bin\imgui.obj
+         ..\Bin\ImGuiFileDialog.obj
+         ..\Bin\ImGuizmo.obj
+         ..\Bin\imgui_demo.obj
+         ..\Bin\imgui_draw.obj
+         ..\Bin\imgui_impl_dx11.obj
+         ..\Bin\imgui_impl_win32.obj
+         ..\Bin\imgui_tables.obj
+         ..\Bin\imgui_widgets.obj
+         ..\Bin\ImSequencer.obj
+            ..\Bin\Engine.lib 라이브러리 및 ..\Bin\Engine.exp 개체를 생성하고 있습니다.
+         코드를 생성하고 있습니다.
+         10159 of 10169 functions (99.9%) were compiled, the rest were copied from previous compilation.
+           47 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         코드를 생성했습니다.
+     1>Effects11.lib(d3dxGlobal.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(d3dxGlobal.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>Effects11.lib(EffectAPI.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectAPI.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>Effects11.lib(EffectLoad.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectLoad.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>Effects11.lib(EffectNonRuntime.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectNonRuntime.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>Effects11.lib(EffectReflection.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectReflection.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>Effects11.lib(EffectRuntime.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectRuntime.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>DirectXTK.lib(CommonStates.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(CommonStates.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>DirectXTK.lib(DDSTextureLoader.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(DDSTextureLoader.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>DirectXTK.lib(BinaryReader.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(BinaryReader.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>DirectXTK.lib(pch.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(pch.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>DirectXTK.lib(ScreenGrab.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(ScreenGrab.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>DirectXTK.lib(SpriteBatch.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(SpriteBatch.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>DirectXTK.lib(PrimitiveBatch.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(PrimitiveBatch.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>DirectXTK.lib(SpriteFont.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(SpriteFont.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>DirectXTK.lib(VertexTypes.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(VertexTypes.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>DirectXTK.lib(WICTextureLoader.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(WICTextureLoader.obj)' 또는 'C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+         Engine.vcxproj -> C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Default\..\Bin\Engine.dll
+       PostBuildEvent:
+         cd /d C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\
+         call Copy.bat
+         :VCEnd
+         .\Engine\Bin\Engine.lib
+         1개 파일이 복사되었습니다.
+         .\Engine\ThirdPartyLib\assimp-vc140-mt.lib
+         .\Engine\ThirdPartyLib\assimp-vc140-mtd.lib
+         .\Engine\ThirdPartyLib\DirectXTK.lib
+         .\Engine\ThirdPartyLib\DirectXTKd.lib
+         .\Engine\ThirdPartyLib\Effects11.lib
+         .\Engine\ThirdPartyLib\Effects11d.lib
+         6개 파일이 복사되었습니다.
+         .\Engine\Bin\Engine.dll
+         1개 파일이 복사되었습니다.
+         .\Engine\public\Animation.h
+         .\Engine\public\Base.h
+         .\Engine\public\Bone.h
+         .\Engine\public\Calculator.h
+         .\Engine\public\Camera.h
+         .\Engine\public\Cell.h
+         .\Engine\public\Channel.h
+         .\Engine\public\Collider.h
+         .\Engine\public\Component.h
+         .\Engine\public\Component_Manager.h
+         .\Engine\public\CustomFont.h
+         .\Engine\public\DebugDraw.h
+         .\Engine\public\Engine_Defines.h
+         .\Engine\public\Engine_Enum.h
+         .\Engine\public\Engine_Function.h
+         .\Engine\public\Engine_Macro.h
+         .\Engine\public\Engine_Struct.cpp
+         .\Engine\public\Engine_Struct.h
+         .\Engine\public\Engine_Typedef.h
+         .\Engine\public\Font_Manager.h
+         .\Engine\public\GameInstance.h
+         .\Engine\public\GameObject.h
+         .\Engine\public\Graphic_Device.h
+         .\Engine\public\ImguiObject.h
+         .\Engine\public\ImGui_Console.h
+         .\Engine\public\ImGui_Manager.h
+         .\Engine\public\Input_Device.h
+         .\Engine\public\Installation.h
+         .\Engine\public\Layer.h
+         .\Engine\public\Level.h
+         .\Engine\public\Level_Manager.h
+         .\Engine\public\Light.h
+         .\Engine\public\Light_Manager.h
+         .\Engine\public\Mesh.h
+         .\Engine\public\Model.h
+         .\Engine\public\Navigation.h
+         .\Engine\public\Object_Manager.h
+         .\Engine\public\PipeLine.h
+         .\Engine\public\Renderer.h
+         .\Engine\public\RenderTarget.h
+         .\Engine\public\Shader.h
+         .\Engine\public\Sound.h
+         .\Engine\public\Sound_Manager.h
+         .\Engine\public\State.h
+         .\Engine\public\Target_Manager.h
+         .\Engine\public\Texture.h
+         .\Engine\public\Timer.h
+         .\Engine\public\Timer_Manager.h
+         .\Engine\public\Transform.h
+         .\Engine\public\UI.h
+         .\Engine\public\VIBuffer.h
+         .\Engine\public\VIBuffer_Cell.h
+         .\Engine\public\VIBuffer_Cube.h
+         .\Engine\public\VIBuffer_Instancing.h
+         .\Engine\public\VIBuffer_Point_Dust.h
+         .\Engine\public\VIBuffer_Point_Instancing.h
+         .\Engine\public\VIBuffer_Point_PlayerDust.h
+         .\Engine\public\VIBuffer_Point_Window.h
+         .\Engine\public\VIBuffer_Rect.h
+         .\Engine\public\VIBuffer_Rect_Instancing.h
+         .\Engine\public\VIBuffer_Square.h
+         .\Engine\public\VIBuffer_Terrain.h
+         .\Engine\public\assimp\.editorconfig
+         .\Engine\public\assimp\aabb.h
+         .\Engine\public\assimp\ai_assert.h
+         .\Engine\public\assimp\anim.h
+         .\Engine\public\assimp\BaseImporter.h
+         .\Engine\public\assimp\Bitmap.h
+         .\Engine\public\assimp\BlobIOSystem.h
+         .\Engine\public\assimp\ByteSwapper.h
+         .\Engine\public\assimp\camera.h
+         .\Engine\public\assimp\cexport.h
+         .\Engine\public\assimp\cfileio.h
+         .\Engine\public\assimp\cimport.h
+         .\Engine\public\assimp\color4.h
+         .\Engine\public\assimp\color4.inl
+         .\Engine\public\assimp\config.h
+         .\Engine\public\assimp\config.h.in
+         .\Engine\public\assimp\CreateAnimMesh.h
+         .\Engine\public\assimp\DefaultIOStream.h
+         .\Engine\public\assimp\DefaultIOSystem.h
+         .\Engine\public\assimp\DefaultLogger.hpp
+         .\Engine\public\assimp\Defines.h
+         .\Engine\public\assimp\defs.h
+         .\Engine\public\assimp\Exceptional.h
+         .\Engine\public\assimp\Exporter.hpp
+         .\Engine\public\assimp\fast_atof.h
+         .\Engine\public\assimp\GenericProperty.h
+         .\Engine\public\assimp\Hash.h
+         .\Engine\public\assimp\Importer.hpp
+         .\Engine\public\assimp\importerdesc.h
+         .\Engine\public\assimp\IOStream.hpp
+         .\Engine\public\assimp\IOStreamBuffer.h
+         .\Engine\public\assimp\IOSystem.hpp
+         .\Engine\public\assimp\irrXMLWrapper.h
+         .\Engine\public\assimp\light.h
+         .\Engine\public\assimp\LineSplitter.h
+         .\Engine\public\assimp\LogAux.h
+         .\Engine\public\assimp\Logger.hpp
+         .\Engine\public\assimp\LogStream.hpp
+         .\Engine\public\assimp\Macros.h
+         .\Engine\public\assimp\material.h
+         .\Engine\public\assimp\material.inl
+         .\Engine\public\assimp\MathFunctions.h
+         .\Engine\public\assimp\matrix3x3.h
+         .\Engine\public\assimp\matrix3x3.inl
+         .\Engine\public\assimp\matrix4x4.h
+         .\Engine\public\assimp\matrix4x4.inl
+         .\Engine\public\assimp\MemoryIOWrapper.h
+         .\Engine\public\assimp\mesh.h
+         .\Engine\public\assimp\metadata.h
+         .\Engine\public\assimp\NullLogger.hpp
+         .\Engine\public\assimp\ParsingUtils.h
+         .\Engine\public\assimp\pbrmaterial.h
+         .\Engine\public\assimp\postprocess.h
+         .\Engine\public\assimp\Profiler.h
+         .\Engine\public\assimp\ProgressHandler.hpp
+         .\Engine\public\assimp\qnan.h
+         .\Engine\public\assimp\quaternion.h
+         .\Engine\public\assimp\quaternion.inl
+         .\Engine\public\assimp\RemoveComments.h
+         .\Engine\public\assimp\scene.h
+         .\Engine\public\assimp\SceneCombiner.h
+         .\Engine\public\assimp\SGSpatialSort.h
+         .\Engine\public\assimp\SkeletonMeshBuilder.h
+         .\Engine\public\assimp\SmoothingGroups.h
+         .\Engine\public\assimp\SmoothingGroups.inl
+         .\Engine\public\assimp\SpatialSort.h
+         .\Engine\public\assimp\StandardShapes.h
+         .\Engine\public\assimp\StreamReader.h
+         .\Engine\public\assimp\StreamWriter.h
+         .\Engine\public\assimp\StringComparison.h
+         .\Engine\public\assimp\StringUtils.h
+         .\Engine\public\assimp\Subdivision.h
+         .\Engine\public\assimp\texture.h
+         .\Engine\public\assimp\TinyFormatter.h
+         .\Engine\public\assimp\types.h
+         .\Engine\public\assimp\vector2.h
+         .\Engine\public\assimp\vector2.inl
+         .\Engine\public\assimp\vector3.h
+         .\Engine\public\assimp\vector3.inl
+         .\Engine\public\assimp\version.h
+         .\Engine\public\assimp\Vertex.h
+         .\Engine\public\assimp\XMLTools.h
+         .\Engine\public\assimp\ZipArchiveIOSystem.h
+         .\Engine\public\assimp\Compiler\poppack1.h
+         .\Engine\public\assimp\Compiler\pstdint.h
+         .\Engine\public\assimp\Compiler\pushpack1.h
+         .\Engine\public\assimp\port\AndroidJNI\AndroidJNIIOSystem.h
+         .\Engine\public\DirectXTK\Audio.h
+         .\Engine\public\DirectXTK\CommonStates.h
+         .\Engine\public\DirectXTK\DDSTextureLoader.h
+         .\Engine\public\DirectXTK\DirectXHelpers.h
+         .\Engine\public\DirectXTK\Effects.h
+         .\Engine\public\DirectXTK\GamePad.h
+         .\Engine\public\DirectXTK\GeometricPrimitive.h
+         .\Engine\public\DirectXTK\GraphicsMemory.h
+         .\Engine\public\DirectXTK\Keyboard.h
+         .\Engine\public\DirectXTK\Model.h
+         .\Engine\public\DirectXTK\Mouse.h
+         .\Engine\public\DirectXTK\PostProcess.h
+         .\Engine\public\DirectXTK\PrimitiveBatch.h
+         .\Engine\public\DirectXTK\ScreenGrab.h
+         .\Engine\public\DirectXTK\SimpleMath.h
+         .\Engine\public\DirectXTK\SimpleMath.inl
+         .\Engine\public\DirectXTK\SpriteBatch.h
+         .\Engine\public\DirectXTK\SpriteFont.h
+         .\Engine\public\DirectXTK\VertexTypes.h
+         .\Engine\public\DirectXTK\WICTextureLoader.h
+         .\Engine\public\DirectXTK\XboxDDSTextureLoader.h
+         .\Engine\public\Effects11\d3dx11effect.h
+         .\Engine\public\Effects11\d3dxGlobal.h
+         .\Engine\public\Fmod\fmod.dll
+         .\Engine\public\Fmod\fmod.h
+         .\Engine\public\Fmod\fmod.hpp
+         .\Engine\public\Fmod\fmodL.dll
+         .\Engine\public\Fmod\fmodL_vc.lib
+         .\Engine\public\Fmod\fmod_codec.h
+         .\Engine\public\Fmod\fmod_common.h
+         .\Engine\public\Fmod\fmod_dsp.h
+         .\Engine\public\Fmod\fmod_dsp_effects.h
+         .\Engine\public\Fmod\fmod_errors.h
+         .\Engine\public\Fmod\fmod_output.h
+         .\Engine\public\Fmod\fmod_vc.lib
+         .\Engine\public\Imgui\dirent.h
+         .\Engine\public\Imgui\GraphEditor.cpp
+         .\Engine\public\Imgui\GraphEditor.h
+         .\Engine\public\Imgui\imconfig.h
+         .\Engine\public\Imgui\ImCurveEdit.cpp
+         .\Engine\public\Imgui\ImCurveEdit.h
+         .\Engine\public\Imgui\ImGradient.cpp
+         .\Engine\public\Imgui\ImGradient.h
+         .\Engine\public\Imgui\imgui.cpp
+         .\Engine\public\Imgui\imgui.h
+         .\Engine\public\Imgui\ImGuiFileDialog.cpp
+         .\Engine\public\Imgui\ImGuiFileDialog.h
+         .\Engine\public\Imgui\ImGuiFileDialogConfig.h
+         .\Engine\public\Imgui\ImGuizmo.cpp
+         .\Engine\public\Imgui\ImGuizmo.h
+         .\Engine\public\Imgui\imgui_demo.cpp
+         .\Engine\public\Imgui\imgui_draw.cpp
+         .\Engine\public\Imgui\imgui_impl_dx11.cpp
+         .\Engine\public\Imgui\imgui_impl_dx11.h
+         .\Engine\public\Imgui\imgui_impl_win32.cpp
+         .\Engine\public\Imgui\imgui_impl_win32.h
+         .\Engine\public\Imgui\imgui_internal.h
+         .\Engine\public\Imgui\imgui_tables.cpp
+         .\Engine\public\Imgui\imgui_widgets.cpp
+         .\Engine\public\Imgui\ImSequencer.cpp
+         .\Engine\public\Imgui\ImSequencer.h
+         .\Engine\public\Imgui\imstb_rectpack.h
+         .\Engine\public\Imgui\imstb_textedit.h
+         .\Engine\public\Imgui\imstb_truetype.h
+         .\Engine\public\Imgui\ImZoomSlider.h
+         214개 파일이 복사되었습니다.
+         .\Engine\Bin\ShaderFiles\Shader_Deferred.hlsl
+         .\Engine\Bin\ShaderFiles\Shader_Navigation.hlsl
+         2개 파일이 복사되었습니다.
+     1>"C:\Users\beoms\OneDrive\바탕 화면\Restart(8) (1)\Restart(8)\Engine\Default\Engine.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:09.39

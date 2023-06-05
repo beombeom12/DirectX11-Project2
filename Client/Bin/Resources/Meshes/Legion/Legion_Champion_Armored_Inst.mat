@@ -1,0 +1,8 @@
+Diffuse=L_Champ_Armored_d
+Normal=MM_Default_N
+Emissive=L_Champ_mre_packed
+Other[0]=T_TilingSmoke_3
+Other[1]=MM_Default_Grey
+Other[2]=MM_Default_MRE_Linear
+Other[3]=T_Dissolve_EdgeRamp_A
+Other[4]=T_DissolveMask_A

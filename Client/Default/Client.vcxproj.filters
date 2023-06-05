@@ -1,0 +1,1038 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Defines">
+      <UniqueIdentifier>{28bcf1ca-5f1c-4e07-a540-09ad25771349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{0ab56a2a-3fff-43ca-9fb6-c65344be4997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{612d8d26-b016-4e58-8379-cd50509c1691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{b4f73262-606c-417f-8f5a-dbe51f83d2d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\00.Loading">
+      <UniqueIdentifier>{85ea47b1-9b2d-4a32-8f1a-1a8be50ae20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\01.Logo">
+      <UniqueIdentifier>{26344aaf-cba4-47a2-b6b2-b717d86a6fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\02.GamePlay">
+      <UniqueIdentifier>{22df0cdb-5b80-4341-b095-9cf9d96f954c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\00.Loading\Loader">
+      <UniqueIdentifier>{971af4d9-cc6e-45cd-8547-bdea84e24691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects">
+      <UniqueIdentifier>{e41e8875-419b-4b63-9229-2273345ad05a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. ShaderFiles">
+      <UniqueIdentifier>{ae3de03a-e187-45b9-99ae-7a638373c63d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Imgui">
+      <UniqueIdentifier>{af39d8a2-2590-4c94-9c26-a53d30dae354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\00.For_Logo">
+      <UniqueIdentifier>{41a8fbaa-c7e3-46a5-9060-958fcc18810a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay">
+      <UniqueIdentifier>{88266260-2db3-44e4-ba4e-176f30e99614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster">
+      <UniqueIdentifier>{ac8aee02-fc3a-4602-9253-a11219f75d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\00.ScarabHulk">
+      <UniqueIdentifier>{4658439a-1d5c-477d-b942-4682654031bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\00.ScarabHulk\00.MonsterState">
+      <UniqueIdentifier>{bd07c6ea-be72-472b-b878-8bb5632460b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\02.Player">
+      <UniqueIdentifier>{bdaab77d-ff3c-4325-8c03-2043748db17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\02.Player\Weapon">
+      <UniqueIdentifier>{18c9a1bd-45c1-4d3e-be93-57c823f6365e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\02.Player\PlayerState">
+      <UniqueIdentifier>{1157c083-6cf6-42e2-b9a6-89b036d07c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\03.Terrain">
+      <UniqueIdentifier>{b832273b-9880-4959-807d-38b693eab5b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\04.Sky">
+      <UniqueIdentifier>{0a9a038f-255c-40e8-b7bd-d48f2abd89d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object">
+      <UniqueIdentifier>{df94f34e-3a02-4412-8d15-536428b6ccd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\00.Desert">
+      <UniqueIdentifier>{fd1617f0-856f-453e-a5f7-721212eacb07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\00.Desert\02.DesertRockB">
+      <UniqueIdentifier>{be0fdc97-d84a-4d13-9f1b-265bf9224b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\00.Desert\01.DesertRockA">
+      <UniqueIdentifier>{0d687db0-e400-413b-a4ab-7f4b6e463a1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\00.Desert\00.TerrainA">
+      <UniqueIdentifier>{9aea05c4-24e3-4c81-ae47-7f796333b0e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\00.Desert\03.CliffRock">
+      <UniqueIdentifier>{a6e14de6-f8b5-4227-8164-2543046ee040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\00.Desert\99.isendingRoad">
+      <UniqueIdentifier>{e1eba038-364e-4453-812e-0448660541a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\00.Desert\04.LandingCrater">
+      <UniqueIdentifier>{bc8905a2-4339-4c98-8399-e9be4c4a53b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.For_Public">
+      <UniqueIdentifier>{6a5f9262-d5aa-4be8-b8cd-44a0c1a75b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.For_Public\Dynamic_Camera">
+      <UniqueIdentifier>{2de42622-4571-4b10-be43-12f5803b0fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.For_Public\Static_Camera">
+      <UniqueIdentifier>{d128e8ff-be7a-4fee-8565-119787021396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\00.For_Logo\01.BackGround">
+      <UniqueIdentifier>{4802a01c-abcc-4482-81b4-37cfe572eb1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\00.For_Logo\00.Loading">
+      <UniqueIdentifier>{873fb28b-dd29-4965-9244-fc99b638d27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\00.For_Logo\00.Loading\99.LoadingBackGround">
+      <UniqueIdentifier>{afa9e369-74b1-487e-8cc1-511eb88419db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\00.For_Logo\00.Loading\00.LoadingImage">
+      <UniqueIdentifier>{99a69fb2-23d9-405a-84f7-bb816e93e9fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\00.Desert\05.DesertRoadA">
+      <UniqueIdentifier>{a608a64c-5370-4082-b93f-1087b8c6c9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Imgui\00.Imgui">
+      <UniqueIdentifier>{e6439167-29f7-4ccc-87d6-fc3564d90871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Imgui\01.Level_Control">
+      <UniqueIdentifier>{803ed5c4-20c3-4dfb-8d60-4a24e998eb56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Imgui\02.Object_Builder">
+      <UniqueIdentifier>{ab7ea744-c196-4adc-8e38-5c7dbc7e33df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\01.Grinner%28Middle%29">
+      <UniqueIdentifier>{e15a4d1e-b7fe-4f16-8940-6811279eb537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\01.Grinner%28Middle%29\00.Grinner_State">
+      <UniqueIdentifier>{a969ede9-f1bc-4bac-abe4-d55f509503ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Imgui\04.Camera Contorl">
+      <UniqueIdentifier>{2f3916fb-6141-4440-9691-494df8ffb7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\99.Effect_Rect_Instancing">
+      <UniqueIdentifier>{dc4039bd-576d-4321-9622-442303dd0854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\02.GamePlay\TestMap">
+      <UniqueIdentifier>{dc2ff8fb-9fb7-4048-8929-ce82ea48baa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\03.Terrain\00.NavigationCube">
+      <UniqueIdentifier>{7cd37f0f-adf1-4cdb-a358-d45597a68ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\03.SteamRoller">
+      <UniqueIdentifier>{ec741e70-6f64-48ed-ae86-4215e65c0ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\03.SteamRoller\00.SteamRoller_State">
+      <UniqueIdentifier>{f13e79a0-b703-4076-ac31-f8981df454ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\00.Desert\06.DesertRockPerPoly">
+      <UniqueIdentifier>{64401d60-a419-4012-802d-21e93baa5b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\00.Desert\07.DesertRockPillar">
+      <UniqueIdentifier>{67ac1ee2-19e7-47ab-9c27-77e81b2df5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\00.Desert\08.DesertRockTall">
+      <UniqueIdentifier>{35663718-92f7-4b5d-9690-cc64f87dbe78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\00.Desert\09.DesertTallCollision">
+      <UniqueIdentifier>{fb06b141-d49f-4020-9047-ca3800eccafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\00.Desert\10.DesertTallLODA">
+      <UniqueIdentifier>{89daf4c0-8aed-428b-bd08-940705056bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\00.Desert\11.DesertTallLODB">
+      <UniqueIdentifier>{f6b55953-55cf-4a08-8e7a-a917dd855cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\00.Desert\12.DesertTerrainRubble">
+      <UniqueIdentifier>{6128a828-1bae-46ed-99e6-e6f4c73fd1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\01.DesertRoad">
+      <UniqueIdentifier>{403d57c4-cccf-4c3b-8d7b-12937cdf7b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\02.Fortress">
+      <UniqueIdentifier>{9caa250f-4403-4511-9163-ed514d7fd8bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\99.StoneA">
+      <UniqueIdentifier>{e32cc414-09a1-4862-824d-05ecf140cb83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\00.FSideWall">
+      <UniqueIdentifier>{32024eb2-c523-4e6f-b73c-51a6571047a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\01.FortressGate">
+      <UniqueIdentifier>{2cab2ff0-0cd0-440b-a9ad-cd886108d14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment">
+      <UniqueIdentifier>{6b611cdb-be9e-4fbe-b84d-78532ef76da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert">
+      <UniqueIdentifier>{a604b455-4e4c-4e9e-8665-0e62d3c9edb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\00.Tree">
+      <UniqueIdentifier>{5ff632c6-697b-490d-ae2b-48bc07dccf8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\99.Barrel">
+      <UniqueIdentifier>{9af42241-5fa8-49d5-a9f6-e7ae822c52e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\01.DBirch">
+      <UniqueIdentifier>{373f6f45-22bf-4766-be07-f27c23594db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\01.DBirch\01.DBirchA">
+      <UniqueIdentifier>{ba318c44-18e4-42d1-9388-a2a4e28362dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\01.DBirch\02.DBirchB">
+      <UniqueIdentifier>{8acb10d1-0990-4018-bb83-c974b1932573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\01.DBirch\03.DBirchC">
+      <UniqueIdentifier>{83977cf0-1b7b-460a-93e8-4ee7854ba066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\02.Forliage">
+      <UniqueIdentifier>{fe96d9d8-77fd-4932-b0bc-7f632024687e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\02.Forliage\00.ForliageA">
+      <UniqueIdentifier>{46d2f6d9-7af4-4a95-acf4-f9563173998e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\01.DesertRoad\00.RoadCliffRock">
+      <UniqueIdentifier>{e422d985-373f-4195-a8eb-f3452402d6ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\01.DesertRoad\01.RoadCliffRockA">
+      <UniqueIdentifier>{89494ba3-f153-4262-9768-7701a20fa3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\03.DStair">
+      <UniqueIdentifier>{705b5453-78e7-44c0-b014-af583a392e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\01.DesertRoad\02.RoadCliffRockB">
+      <UniqueIdentifier>{c3e349d0-5e67-4f95-8d09-f38854734fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\01.DesertRoad\03.RoadCliffRockC">
+      <UniqueIdentifier>{a8e53609-e127-494d-9a76-7682af7341f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\04.DStair2">
+      <UniqueIdentifier>{5fb39e61-76a4-4f9d-9fa9-daf57a3c89a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\98.BarrelA">
+      <UniqueIdentifier>{5dd0babf-45e0-4315-adc6-6a71b26008aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\04.DBarricade">
+      <UniqueIdentifier>{c486878d-dc7a-4602-b3e2-6d97273dabc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\04.Goblin">
+      <UniqueIdentifier>{7cea5956-e810-4b3b-b5e4-f27938a50999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\04.Goblin\00.Goblin_State">
+      <UniqueIdentifier>{c97a7ce6-6586-47a2-a2c4-e4598967ca2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\04.Goblin\01.Goblin_Sword">
+      <UniqueIdentifier>{b9ff9122-3b62-416e-abdb-58e923f8f741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\06.DStairCase">
+      <UniqueIdentifier>{b7875bca-144a-42f9-ac7f-3a64547ca4a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\02.FSideCliff">
+      <UniqueIdentifier>{01d5f478-558d-4244-9b83-b79d18adf4ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\03.FSpikeA">
+      <UniqueIdentifier>{e2ddbf99-f188-4f47-92b6-7f1493f41760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\05.FSpikeB">
+      <UniqueIdentifier>{8b42c573-8d1d-4967-ab1c-d3d8031ce9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\07.FWallB">
+      <UniqueIdentifier>{e82d1e3d-2d2f-4a1e-aeca-5db747ed9714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\06.FWallA">
+      <UniqueIdentifier>{0275623e-a7d8-4896-93b7-0af95021b9da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\04.FSpikeAHalf">
+      <UniqueIdentifier>{68c2263b-116e-46cd-b0c5-6979d72840dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\08.FStairUp">
+      <UniqueIdentifier>{641cbf3f-562b-4638-bf4f-6561138475f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Imgui\03.Navigation Control">
+      <UniqueIdentifier>{f8fe5fe7-dcf3-4da7-b37b-7830e5468845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\09.FRoadMain">
+      <UniqueIdentifier>{dcaaaaac-5789-4122-a4bb-aa3930240b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\00.For_Logo\02.Effect">
+      <UniqueIdentifier>{7251ea3c-f76f-4d9d-a27f-204207189e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\05.UI">
+      <UniqueIdentifier>{c9be0821-61c2-4552-9346-566d77b8d6d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\05.UI\00.UI_Player">
+      <UniqueIdentifier>{cd577e11-671e-4787-b022-927c0f8a180c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\05.UI\01.UI_Player_HPbar">
+      <UniqueIdentifier>{f8e1b6eb-0934-4823-a50a-c7b7fd7b9bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. ShaderFiles\UI">
+      <UniqueIdentifier>{7277f830-8f3b-4ef6-b7b7-99a583cf6ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\05.UI\02.UI_Player_HP">
+      <UniqueIdentifier>{de6976e3-22f1-4b15-9a9b-669f3831fa69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\05.Moloch">
+      <UniqueIdentifier>{42650c21-26ea-4a9c-8d2f-a57e2102f226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\05.Moloch\00.Moloch_State">
+      <UniqueIdentifier>{fd8adc6f-329e-4470-9eb4-203488ba48a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\05.Moloch\01.Moloch_Sword">
+      <UniqueIdentifier>{bf40bffc-9e92-45cc-9482-381e4716855b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\05.UI\03.UI_Player_SkillTool">
+      <UniqueIdentifier>{35bad2f3-0bec-40b2-aa65-467fed83ec85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\05.UI\03.UI_Player_SkillTool\00.Ui_Skill">
+      <UniqueIdentifier>{579821c0-849f-46d9-9946-97d683ab7c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\02.Player\WarSkill">
+      <UniqueIdentifier>{34949c9c-528f-466a-a3ce-fc9fb739bddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. ShaderFiles\Effect">
+      <UniqueIdentifier>{ed4763ff-8cb9-4a98-995c-a4b854c7e1f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. ShaderFiles\UI\Loading">
+      <UniqueIdentifier>{354c7d14-ff3e-46b0-b3b3-f0c58c561c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\05.UI\04.UI_Player_Button">
+      <UniqueIdentifier>{f84ac6c5-43dd-4252-8c98-3e085505e18e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\05.UI\05.UI_Player_SkillButton">
+      <UniqueIdentifier>{25567d30-d033-45a4-b23b-e91dc2fae1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\99.Effect_Rect_Instancing\00.Player_Effect">
+      <UniqueIdentifier>{85c63ba7-00bd-4277-9f71-348a02d72f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\02.HellHound">
+      <UniqueIdentifier>{39ac4c31-f08c-43e2-af27-d1a43656651d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\02.HellHound\00.HellHound_State">
+      <UniqueIdentifier>{b3399a3e-ff71-483e-be81-41e6be019942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\99.Effect_Rect_Instancing\01.Player_DustEffect">
+      <UniqueIdentifier>{ff1b50f6-f068-4d9d-bc40-f15383fd5aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\06.SubMonster">
+      <UniqueIdentifier>{af44e145-6a13-48a3-97c7-928138227b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\06.SubMonster\00.SubMo_State">
+      <UniqueIdentifier>{6b17538e-f7aa-4d4f-a512-9e2d8bc71862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\99.Effect_Rect_Instancing\02.Player_Window">
+      <UniqueIdentifier>{abe42dea-052a-4955-b4a6-2f336578e2fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Imgui\05.Effect_Control">
+      <UniqueIdentifier>{f5665ff4-29bc-443c-a9c6-7ae403095928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Imgui\06.Monster_Control">
+      <UniqueIdentifier>{401337f2-2520-4bd1-a23d-329afc0c76db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\01.Monster\05.Moloch\02.Moloch_Magic">
+      <UniqueIdentifier>{772ae286-e275-436a-8793-49ae960e4348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.For_GamePlay\05.UI\06.UI_MonsterHP">
+      <UniqueIdentifier>{21bd05c6-4b3f-41b1-9463-b0471a54c1e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. ShaderFiles\UI\Monster">
+      <UniqueIdentifier>{9d1b7e52-d501-46fc-932e-705e5464caf7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Client_Defines.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Logo.h">
+      <Filter>01.Levels\01.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Loading.h">
+      <Filter>01.Levels\00.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_GamePlay.h">
+      <Filter>01.Levels\02.GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loader.h">
+      <Filter>01.Levels\00.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BackGround.h">
+      <Filter>02.GameObjects\00.For_Logo\01.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera_Dynamic.h">
+      <Filter>02.GameObjects\01.For_Public\Dynamic_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Terrain.h">
+      <Filter>02.GameObjects\02.For_GamePlay\03.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player.h">
+      <Filter>02.GameObjects\02.For_GamePlay\02.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Control.h">
+      <Filter>96. Imgui\01.Level_Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Object_Builder.h">
+      <Filter>96. Imgui\02.Object_Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ImGui_Manager_Client.h">
+      <Filter>96. Imgui\00.Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Weapon.h">
+      <Filter>02.GameObjects\02.For_GamePlay\02.Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_State.h">
+      <Filter>02.GameObjects\02.For_GamePlay\02.Player\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Static_Camera.h">
+      <Filter>02.GameObjects\01.For_Public\Static_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Monster.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\00.ScarabHulk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Monster_State.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\00.ScarabHulk\00.MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Bin\ShaderFiles\Shader_Client_Defines.h">
+      <Filter>97. ShaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Sky.h">
+      <Filter>02.GameObjects\02.For_GamePlay\04.Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Stone.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\99.StoneA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DesertTerrain.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\00.TerrainA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DesertRockA.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\01.DesertRockA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DesertRockB.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\02.DesertRockB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CliffRock.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\03.CliffRock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DesertRoad.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\99.isendingRoad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LandingCrater.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\04.LandingCrater</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DTree.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\00.Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DBarrel.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\99.Barrel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DBirchA.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\01.DBirch\01.DBirchA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DBirchB.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\01.DBirch\02.DBirchB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DBirchC.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\01.DBirch\03.DBirchC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ForliageA.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\02.Forliage\00.ForliageA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LoadingBackGround.h">
+      <Filter>02.GameObjects\00.For_Logo\00.Loading\99.LoadingBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LoadingImage.h">
+      <Filter>02.GameObjects\00.For_Logo\00.Loading\00.LoadingImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DesertRoadA.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\05.DesertRoadA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DesertRoadB.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\06.DesertRockPerPoly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Navigation_Control.h">
+      <Filter>96. Imgui\03.Navigation Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FSideWall.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\00.FSideWall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FortressGate.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\01.FortressGate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Grinner.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\01.Grinner%28Middle%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Effect_Rect_Instancing.h">
+      <Filter>02.GameObjects\02.For_GamePlay\99.Effect_Rect_Instancing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TestMap.h">
+      <Filter>01.Levels\02.GamePlay\TestMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Navigation_Cube.h">
+      <Filter>02.GameObjects\02.For_GamePlay\03.Terrain\00.NavigationCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Steamroller.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\03.SteamRoller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Steamroller_State.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\03.SteamRoller\00.SteamRoller_State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DesertRockPillar.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\07.DesertRockPillar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DesertRockTall.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\08.DesertRockTall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DesertTallCollision.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\09.DesertTallCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DesertTallLODA.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\10.DesertTallLODA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DesertTallLODB.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\11.DesertTallLODB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DesertTerrainRubble.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\12.DesertTerrainRubble</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DStair.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\03.DStair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DStairTwo.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\04.DStair2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RoadCliffRock.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\01.DesertRoad\00.RoadCliffRock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RoadCliffRockA.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\01.DesertRoad\01.RoadCliffRockA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RoadCliffRockB.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\01.DesertRoad\02.RoadCliffRockB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RoadCliffRockC.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\01.DesertRoad\03.RoadCliffRockC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DBarrelA.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\98.BarrelA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DBarricade.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\04.DBarricade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Goblin.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\04.Goblin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Goblin_State.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\04.Goblin\00.Goblin_State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\StairCase.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\06.DStairCase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Goblin_Sword.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\04.Goblin\01.Goblin_Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FSideCliff.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\02.FSideCliff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FSpikeA.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\03.FSpikeA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FSpikeAHalf.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\04.FSpikeAHalf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FSpikeB.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\05.FSpikeB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FWallA.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\06.FWallA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FWallB.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\07.FWallB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\StairUp.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\08.FStairUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FRoadMain.h">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\09.FRoadMain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Effect.h">
+      <Filter>02.GameObjects\00.For_Logo\02.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Moloch.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\05.Moloch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Moloch_State.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\05.Moloch\00.Moloch_State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Moloch_Sword.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\05.Moloch\01.Moloch_Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Player.h">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\00.UI_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_HPBAR.h">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\01.UI_Player_HPbar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_HP.h">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\02.UI_Player_HP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Grinner_State.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\01.Grinner%28Middle%29\00.Grinner_State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Player_SkillTool.h">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\03.UI_Player_SkillTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Skill1.h">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\03.UI_Player_SkillTool\00.Ui_Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Skill2.h">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\03.UI_Player_SkillTool\00.Ui_Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\WarSkill.h">
+      <Filter>02.GameObjects\02.For_GamePlay\02.Player\WarSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Player_Button.h">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\04.UI_Player_Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Player_SkillButton.h">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\05.UI_Player_SkillButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Effect_Point_Instancing.h">
+      <Filter>02.GameObjects\02.For_GamePlay\99.Effect_Rect_Instancing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Effect_PlayerDust.h">
+      <Filter>02.GameObjects\02.For_GamePlay\99.Effect_Rect_Instancing\00.Player_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\HellHound.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\02.HellHound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\HellHound_State.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\02.HellHound\00.HellHound_State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Effect_Point_PlayerDust.h">
+      <Filter>02.GameObjects\02.For_GamePlay\99.Effect_Rect_Instancing\01.Player_DustEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SubMo.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\06.SubMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SubeMo_State.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\06.SubMonster\00.SubMo_State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Effect_Point_PlayerWindow.h">
+      <Filter>02.GameObjects\02.For_GamePlay\99.Effect_Rect_Instancing\02.Player_Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Monster_Install.h">
+      <Filter>96. Imgui\06.Monster_Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Mo_Stone.h">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\05.Moloch\02.Moloch_Magic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_MonsterHP.h">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\06.UI_MonsterHP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Logo.cpp">
+      <Filter>01.Levels\01.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Loading.cpp">
+      <Filter>01.Levels\00.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_GamePlay.cpp">
+      <Filter>01.Levels\02.GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loader.cpp">
+      <Filter>01.Levels\00.Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BackGround.cpp">
+      <Filter>02.GameObjects\00.For_Logo\01.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera_Dynamic.cpp">
+      <Filter>02.GameObjects\01.For_Public\Dynamic_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Terrain.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\03.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\02.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Control.cpp">
+      <Filter>96. Imgui\01.Level_Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Object_Builder.cpp">
+      <Filter>96. Imgui\02.Object_Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ImGui_Manager_Client.cpp">
+      <Filter>96. Imgui\00.Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Weapon.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\02.Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_State.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\02.Player\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Static_Camera.cpp">
+      <Filter>02.GameObjects\01.For_Public\Static_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Monster.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\00.ScarabHulk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Monster_State.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\00.ScarabHulk\00.MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Sky.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\04.Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Stone.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\99.StoneA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DesertTerrain.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\00.TerrainA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DesertRockA.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\01.DesertRockA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DesertRockB.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\02.DesertRockB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CliffRock.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\03.CliffRock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DesertRoad.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\99.isendingRoad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LandingCrater.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\04.LandingCrater</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DTree.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\00.Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DBarrel.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\99.Barrel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DBirchA.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\01.DBirch\01.DBirchA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DBirchB.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\01.DBirch\02.DBirchB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DBirchC.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\01.DBirch\03.DBirchC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ForliageA.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\02.Forliage\00.ForliageA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LoadingBackGround.cpp">
+      <Filter>02.GameObjects\00.For_Logo\00.Loading\99.LoadingBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LoadingImage.cpp">
+      <Filter>02.GameObjects\00.For_Logo\00.Loading\00.LoadingImage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DesertRoadA.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\05.DesertRoadA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DesertRoadB.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\06.DesertRockPerPoly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Navigation_Control.cpp">
+      <Filter>96. Imgui\03.Navigation Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FSideWall.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\00.FSideWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FortressGate.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\01.FortressGate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Grinner.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\01.Grinner%28Middle%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Grinner_State.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\01.Grinner%28Middle%29\00.Grinner_State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Effect_Rect_Instancing.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\99.Effect_Rect_Instancing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TestMap.cpp">
+      <Filter>01.Levels\02.GamePlay\TestMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Navigation_Cube.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\03.Terrain\00.NavigationCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Steamroller.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\03.SteamRoller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Steamroller_State.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\03.SteamRoller\00.SteamRoller_State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DesertRockPillar.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\07.DesertRockPillar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DesertRockTall.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\08.DesertRockTall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DesertTallCollision.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\09.DesertTallCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DesertTallLODA.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\10.DesertTallLODA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DesertTallLODB.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\11.DesertTallLODB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DesertTerrainRubble.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\00.Desert\12.DesertTerrainRubble</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DStair.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\03.DStair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DStairTwo.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\04.DStair2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RoadCliffRock.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\01.DesertRoad\00.RoadCliffRock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RoadCliffRockA.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\01.DesertRoad\01.RoadCliffRockA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RoadCliffRockB.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\01.DesertRoad\02.RoadCliffRockB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RoadCliffRockC.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\01.DesertRoad\03.RoadCliffRockC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DBarrelA.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\98.BarrelA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DBarricade.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\04.DBarricade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Goblin.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\04.Goblin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Goblin_State.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\04.Goblin\00.Goblin_State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\StairCase.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\03.Enviroment\00.Desert\06.DStairCase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Goblin_Sword.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\04.Goblin\01.Goblin_Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FSideCliff.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\02.FSideCliff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FSpikeA.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\03.FSpikeA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FSpikeAHalf.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\04.FSpikeAHalf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FSpikeB.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\05.FSpikeB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FWallA.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\06.FWallA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FWallB.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\07.FWallB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\StairUp.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\08.FStairUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FRoadMain.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\00.Object\02.Fortress\09.FRoadMain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Effect.cpp">
+      <Filter>02.GameObjects\00.For_Logo\02.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Moloch.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\05.Moloch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Moloch_State.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\05.Moloch\00.Moloch_State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Moloch_Sword.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\05.Moloch\01.Moloch_Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Player.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\00.UI_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_HPBAR.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\01.UI_Player_HPbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_HP.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\02.UI_Player_HP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Player_SkillTool.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\03.UI_Player_SkillTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Skill1.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\03.UI_Player_SkillTool\00.Ui_Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Skill2.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\03.UI_Player_SkillTool\00.Ui_Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\WarSkill.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\02.Player\WarSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Player_Button.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\04.UI_Player_Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Player_SkillButton.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\05.UI_Player_SkillButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Effect_Point_Instancing.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\99.Effect_Rect_Instancing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Effect_PlayerDust.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\99.Effect_Rect_Instancing\00.Player_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\HellHound.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\02.HellHound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\HellHound_State.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\02.HellHound\00.HellHound_State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Effect_Point_PlayerDust.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\99.Effect_Rect_Instancing\01.Player_DustEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SubMo.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\06.SubMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SubeMo_State.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\06.SubMonster\00.SubMo_State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Effect_Point_PlayerWindow.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\99.Effect_Rect_Instancing\02.Player_Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Monster_Install.cpp">
+      <Filter>96. Imgui\06.Monster_Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Mo_Stone.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\01.Monster\05.Moloch\02.Moloch_Magic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_MonsterHP.cpp">
+      <Filter>02.GameObjects\02.For_GamePlay\05.UI\06.UI_MonsterHP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxTex.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxModel.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnimModel.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCubeTex.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxRectInstance.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Vertex_Square.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Vertex_Texture.hlsl">
+      <Filter>97. ShaderFiles\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Vertex_HPBAR.hlsl">
+      <Filter>97. ShaderFiles\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Vertex_HP.hlsl">
+      <Filter>97. ShaderFiles\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Vertex_SkillTool.hlsl">
+      <Filter>97. ShaderFiles\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Vertex_Skill1.hlsl">
+      <Filter>97. ShaderFiles\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Vertex_Skill2.hlsl">
+      <Filter>97. ShaderFiles\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Vertex_UI_BackGround.hlsl">
+      <Filter>97. ShaderFiles\UI\Loading</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Vertex_UI_BackImage.hlsl">
+      <Filter>97. ShaderFiles\UI\Loading</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPointInstance.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxDustPointInstance.hlsl">
+      <Filter>97. ShaderFiles\Effect</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPointPlayerDust.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxWindowPointInstance.hlsl">
+      <Filter>97. ShaderFiles\Effect</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Vertex_MonsterHP.hlsl">
+      <Filter>97. ShaderFiles\UI\Monster</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
